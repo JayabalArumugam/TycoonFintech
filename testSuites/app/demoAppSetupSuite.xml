@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User App Suite">
+    <listeners>
+        <listener class-name="resources.ExtentTestNGITestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Demo Setup Test">
+        <classes>
+            <class name="setupTest.DemoAppSetupTest"/>
+        </classes>
+    </test>
+</suite>

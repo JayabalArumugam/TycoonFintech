@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/jayabalarumugam/Documents/AutomationProject/TycoonFintechProject">
+        <classes>
+            <class name="WebAppTest.T0_LaunchTest.LaunchTest">
+                <methods><exclude name="QuitTest"/>
+                </methods>
+            </class>
+            <class name="WebAppTest.T2_RegisterTest.RegisterTest">
+                <methods><include name="CreateAccountTest"/></methods>
+                <methods><exclude name="Register_LoginTest"/></methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/jayabalarumugam/Documents/AutomationProject/TycoonFintechProject">
+        <classes>
+            <class name="WebAppTest.T0_LaunchTest.LaunchTest">
+                <methods>
+                    <exclude name="QuitTest"/>
+                </methods>
+            </class>
+            <class name="WebAppTest.T3_LoginTest.LoginTest">
+                <methods>
+                    <include name="UserLoginV2Test"/>
+                </methods>
+            </class>
+            <class name="WebAppTest.T5_AccountTest.AccountTest">
+                <methods>
+                    <!--                    <include name="EditPaymentDetailsTest"/>-->
+                    <include name="EditProfileTest"/>
+                    <!--                    <include name="ChangePasswordTest"/>-->
+                    <!--                    <include name="TwoFactorTest"/>-->
+                    <!--                    <exclude name="EditPaymentDetailsTest"/>-->
+                    <!--                    <exclude name="EditProfileTest"/>-->
+                    <!--                    <exclude name="ChangePasswordTest"/>-->
+                    <!--                    <exclude name="TwoFactorTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
