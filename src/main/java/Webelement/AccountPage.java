@@ -31,30 +31,38 @@ public class AccountPage extends Launch {
     public WebElement EditEmail;
 
     @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[4]/div/div/div[1]")
+    public WebElement EditDOBDay;
+
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[4]/div/div/div[1]")
+    public WebElement EditDOBMonth;
+
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[4]/div/div/div[1]")
+    public WebElement EditDOBYear;
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[5]/div/div/div[1]")
     public WebElement EditPrimaryCountryCode;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[4]/div/div/div[2]/div/input")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[5]/div/div/div[2]/div/input")
     public WebElement EditPrimaryMobileNumber;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[5]/div/div/div[1]")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[6]/div/div/div[1]")
     public WebElement EditSecondaryCountryCode;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[5]/div/div/div[2]/div/input")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[6]/div/div/div[2]/div/input")
     public WebElement EditSecondaryMobileNumber;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[6]/div/div/div/input")
+    @FindBy(xpath = "/html/body/div[2]/div/div[2]/div[2]/form/div/div[1]/div/div[7]/div/div/div/input")
     public WebElement EditNomineeName;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[8]/div/div/div/input")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[9]/div/div/div/input")
     public WebElement EditNomineeRelation;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[7]/div/div/div[1]")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[8]/div/div/div[1]")
     public WebElement EditNomineeCountryCode;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[7]/div/div/div[2]/div/input")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[8]/div/div/div[2]/div/input")
     public WebElement EditNomineeMobileNumber;
 
-    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[10]/div/span/div/div/label/div")
+    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[11]/div/span/div/div/label/div")
     public WebElement EditProfileImage;
 
 //    @FindBy(xpath = "/html/body/div/div/div[2]/div[2]/form/div/div[1]/div/div[6]/div/span/div/div/label/div/img")

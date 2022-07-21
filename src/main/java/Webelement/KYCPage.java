@@ -52,4 +52,7 @@ public class KYCPage extends Launch {
 
     @FindBy(xpath = "/html/body/div[2]/div[3]/div/div[1]/button")
     public WebElement OTPCloseButton;
+
+    @FindBy(xpath = "/html/body/div[2]/div/div[2]/form/div/div[2]/div[1]/div/div[3]/div[2]/div/label")
+    public WebElement OptionalDocumentName;
 }
